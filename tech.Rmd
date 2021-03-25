@@ -1,0 +1,39 @@
+---
+title: "Products by Tech"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("setup.R")
+```
+
+## Applications
+
+<div class="card-deck">
+```{r, results='asis'}
+get_cards(tech = "App")
+```
+</div>
+
+## Dashboards
+
+<div class="card-deck">
+```{r, results='asis'}
+get_cards(tech = "Dashboard")
+```
+</div>
+
+## Infographics
+
+<div class="card-deck">
+```{r, results='asis'}
+get_cards(tech = "Infographic")
+```
+</div>
+

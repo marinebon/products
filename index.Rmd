@@ -1,0 +1,19 @@
+---
+title: "Technical Products for MBON"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("setup.R")
+```
+
+Here are all the technical products listed alphabetically. Alternatively, you can browse by [Technology](tech.html), or [Node](node.html) in the [Marine Biodiversity Observation Network](https://marinebon.org) (MBON).
+
+<div class="card-deck">
+
+```{r, results='asis'}
+get_cards()
+```
+</div>

@@ -1,0 +1,36 @@
+---
+title: "Seascapes for Sanctuaries"
+output: html_document
+bibliography: [_products.bib]
+biblio-style: apalike
+link-citations: yes
+params:
+  tech: App
+  description: "Shiny application to visualize global Seascape Classes in time and space for the National Marine Sanctuaries."
+  img: images/app_seascapes-for-sanctuaries.png
+  nodes: 
+  - Sanctuaries
+  website: https://shiny.marinebon.app/seascapes
+  code: https://github.com/marinebon/seascape_app
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("setup.R")
+```
+
+```{r, child='_product.Rmd'}
+```
+
+## Details
+
+Seascapes are classes of water masses defined by surface properties obtained via satellite (temperature, salinity, Chlorophyll _a_, CDOM, ...) and an ordination statistical process [@kavanaughSeascapesNewVernacular2016]. These may be useful proxy predictors for various species when comparing with observational data, such as environmental DNA, surveys and telemetry across MarineBON.org. The data are already served via ERDDAP, but summarizing them and visualizing them is not straightforward.
+
+The [seascapeR](https://marinebon.org/seascapeR) R package is used to read, analyze and plot the data that get used with this Seascapes Shiny app for synchronizing the map with the summarized time series by Sanctuary. You can zoom in/out of space and time, and click the play button (on right between panes) or time to update the map to that time snapshot.
+
+
+## References
+
+
+
+

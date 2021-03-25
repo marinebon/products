@@ -1,0 +1,30 @@
+---
+title: "Florida Keys Alert Dashboard"
+params:
+  tech: Dashboard
+  description: "Early warning and alert dashboard of satellite and buoy data for detecting harmful algal blooms and anoxic conditions in the Florida Keys."
+  img: images/dash_FL-keys.png
+  nodes: 
+  - South Florida
+  website: http://grafana.marine.usf.edu:3000/dashboard/db/fk-nms-early-alert-dashboard?orgId=2
+  code: https://github.com/marinebon/mbon-dashboard-server
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("setup.R")
+```
+
+```{r, child='_product.Rmd'}
+```
+
+## Details
+
+Please see the following for more on developing interactive infographics:
+
+- [infographiq](https://github.com/marinebon/infographiq) R package
+
+
+
+
+

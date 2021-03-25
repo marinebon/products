@@ -1,0 +1,30 @@
+---
+title: "Florida Keys ESR Infographic"
+params:
+  tech: Infographic
+  description: "Conceptual diagram as interactive infographic for the Florida Keys Sanctuary associated with Ecosystem Status Report (ESR)."
+  img: images/info_fk-esr.png
+  nodes: 
+  - South Florida
+  website: https://marinebon.org/fk-esr-info/infographic.html
+  code: https://github.com/marinebon/fk-esr-info
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("setup.R")
+```
+
+```{r, child='_product.Rmd'}
+```
+
+## Details
+
+Please see the following for more on developing interactive infographics:
+
+- [infographiq](https://github.com/marinebon/infographiq) R package
+
+
+
+
+

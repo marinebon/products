@@ -1,0 +1,25 @@
+name: "mbon-products"
+navbar:
+  title: "MBON Products"
+  left:
+    - text: "Tech"
+      icon: fa-cogs
+      href: tech.html
+      # menu:
+      #   - text: "Uploader"
+      #     href: t_uploader.html
+    - text: "Node"
+      icon: fa-globe
+      href: node.html
+  # right:
+  #   - text: "About"
+  #     href: about.html
+output_dir: "."
+output:
+  html_document:
+    #toc: true
+    #toc_float: true
+    theme:
+      version: 4
+      bootswatch: lumen
+    css: styles.css

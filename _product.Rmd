@@ -1,0 +1,16 @@
+
+<div class="clearfix">
+<img src="`r fm$params$img`" width="50%" class="float-right ml-2">
+<h6><i class="fa fa-cogs"></i> `r paste(fm$params$tech, collapse=", ")`</h6>
+<h6><i class="fa fa-globe"></i> `r fm$params$nodes`</h6>
+</h6>
+<p>`r fm$params$description`</p>
+<h6>
+`r param_html("website")`
+`r param_html("details")`
+`r param_html("code")`
+`r param_html("video")`
+</h6>
+
+
+</div>
